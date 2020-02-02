@@ -1,0 +1,11 @@
+D:\remisha\lab3_mvc\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.deps.json
+D:\remisha\lab3_mvc\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.dll
+D:\remisha\lab3_mvc\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.pdb
+D:\remisha\lab3_mvc\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Repository.dll
+D:\remisha\lab3_mvc\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Repository.pdb
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.csprojAssemblyReference.cache
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.AssemblyInfoInputs.cache
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.AssemblyInfo.cs
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.csproj.CopyComplete
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.dll
+D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.pdb
