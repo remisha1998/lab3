@@ -1579,11 +1579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\remisha\\lab3_mvc\\lab3_mvc.Mvc\\lab3_mvc.Mvc.csproj",
+      "projectUniqueName": "D:\\dotnet\\lab3\\lab3_mvc.Mvc\\lab3_mvc.Mvc.csproj",
       "projectName": "lab3_mvc.Mvc",
-      "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Mvc\\lab3_mvc.Mvc.csproj",
+      "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Mvc\\lab3_mvc.Mvc.csproj",
       "packagesPath": "C:\\Users\\Remo\\.nuget\\packages\\",
-      "outputPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Mvc\\obj\\",
+      "outputPath": "D:\\dotnet\\lab3\\lab3_mvc.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Remo\\AppData\\Roaming\\NuGet\\NuGet.Config"

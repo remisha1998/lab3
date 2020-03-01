@@ -9,3 +9,14 @@ D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services
 D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.csproj.CopyComplete
 D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.dll
 D:\remisha\lab3_mvc\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.pdb
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.csprojAssemblyReference.cache
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.AssemblyInfoInputs.cache
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.AssemblyInfo.cs
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.dll
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.pdb
+D:\dotnet\lab3\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.deps.json
+D:\dotnet\lab3\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.dll
+D:\dotnet\lab3\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Services.pdb
+D:\dotnet\lab3\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Repository.dll
+D:\dotnet\lab3\lab3_mvc.Services\bin\Debug\netstandard2.0\lab3_mvc.Repository.pdb
+D:\dotnet\lab3\lab3_mvc.Services\obj\Debug\netstandard2.0\lab3_mvc.Services.csproj.CopyComplete

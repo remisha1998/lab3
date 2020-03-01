@@ -6,3 +6,11 @@ D:\remisha\lab3_mvc\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Reposi
 D:\remisha\lab3_mvc\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.AssemblyInfo.cs
 D:\remisha\lab3_mvc\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.dll
 D:\remisha\lab3_mvc\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.pdb
+D:\dotnet\lab3\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.csprojAssemblyReference.cache
+D:\dotnet\lab3\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.AssemblyInfoInputs.cache
+D:\dotnet\lab3\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.AssemblyInfo.cs
+D:\dotnet\lab3\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.dll
+D:\dotnet\lab3\lab3_mvc.Repository\obj\Debug\netstandard2.0\lab3_mvc.Repository.pdb
+D:\dotnet\lab3\lab3_mvc.Repository\bin\Debug\netstandard2.0\lab3_mvc.Repository.deps.json
+D:\dotnet\lab3\lab3_mvc.Repository\bin\Debug\netstandard2.0\lab3_mvc.Repository.dll
+D:\dotnet\lab3\lab3_mvc.Repository\bin\Debug\netstandard2.0\lab3_mvc.Repository.pdb

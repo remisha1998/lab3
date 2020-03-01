@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\remisha\\lab3_mvc\\lab3_mvc.api\\lab3_mvc.Api.csproj": {}
+    "D:\\dotnet\\lab3\\lab3_mvc.Api\\lab3_mvc.Api.csproj": {}
   },
   "projects": {
-    "D:\\remisha\\lab3_mvc\\lab3_mvc.api\\lab3_mvc.Api.csproj": {
+    "D:\\dotnet\\lab3\\lab3_mvc.Api\\lab3_mvc.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\remisha\\lab3_mvc\\lab3_mvc.api\\lab3_mvc.Api.csproj",
+        "projectUniqueName": "D:\\dotnet\\lab3\\lab3_mvc.Api\\lab3_mvc.Api.csproj",
         "projectName": "lab3_mvc.Api",
-        "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.api\\lab3_mvc.Api.csproj",
+        "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Api\\lab3_mvc.Api.csproj",
         "packagesPath": "C:\\Users\\Remo\\.nuget\\packages\\",
-        "outputPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.api\\obj\\",
+        "outputPath": "D:\\dotnet\\lab3\\lab3_mvc.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Remo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
-                "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj"
+              "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
+                "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj"
               },
-              "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\lab3_mvc.Services.csproj": {
-                "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\lab3_mvc.Services.csproj"
+              "D:\\dotnet\\lab3\\lab3_mvc.Services\\lab3_mvc.Services.csproj": {
+                "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Services\\lab3_mvc.Services.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
+    "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj",
+        "projectUniqueName": "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj",
         "projectName": "lab3_mvc.Repository",
-        "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj",
+        "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj",
         "packagesPath": "C:\\Users\\Remo\\.nuget\\packages\\",
-        "outputPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\obj\\",
+        "outputPath": "D:\\dotnet\\lab3\\lab3_mvc.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Remo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -96,11 +96,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -117,14 +129,14 @@
         }
       }
     },
-    "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\lab3_mvc.Services.csproj": {
+    "D:\\dotnet\\lab3\\lab3_mvc.Services\\lab3_mvc.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\lab3_mvc.Services.csproj",
+        "projectUniqueName": "D:\\dotnet\\lab3\\lab3_mvc.Services\\lab3_mvc.Services.csproj",
         "projectName": "lab3_mvc.Services",
-        "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\lab3_mvc.Services.csproj",
+        "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Services\\lab3_mvc.Services.csproj",
         "packagesPath": "C:\\Users\\Remo\\.nuget\\packages\\",
-        "outputPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Services\\obj\\",
+        "outputPath": "D:\\dotnet\\lab3\\lab3_mvc.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Remo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -138,8 +150,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
-                "projectPath": "D:\\remisha\\lab3_mvc\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj"
+              "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj": {
+                "projectPath": "D:\\dotnet\\lab3\\lab3_mvc.Repository\\lab3_mvc.Repository.csproj"
               }
             }
           }
