@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using lab3_mvc.Repository;
+using lab3_mvc.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace lab3_mvc.Api
 {
@@ -25,7 +28,10 @@ namespace lab3_mvc.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            RepositoryModule.Register(services, Configuration.GetConnectionString("DefaultConnection"), GetType().Assembly.FullName);
+            ServicesModule.Register(services);
+            services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);//.SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            // services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,16 +42,24 @@ namespace lab3_mvc.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
+            else
             {
-                endpoints.MapControllers();
-            });
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.UseMvc();
+
+            // app.UseRouting();
+
+            // app.UseAuthorization();
+
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapControllers();
+            }
+            // );
         }
     }
-}
+

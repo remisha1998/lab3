@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace lab3_mvc.Repository.Domain 
 { 
     public class Menu 
     { 
+        [Key]
         public int Meal_Id { get; set; }
         public string Menu_Name { get; set; }
         public DateTime Available_Date_From { get; set; }

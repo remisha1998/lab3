@@ -7,5 +7,6 @@ namespace lab3_mvc.Services.SCustomer
         public CustomerService(ICustomerRepository customerRepository) : base(customerRepository) 
         {
         }
+
     }
 } 

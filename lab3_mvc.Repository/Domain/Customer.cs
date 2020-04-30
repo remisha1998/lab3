@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace lab3_mvc.Repository.Domain 
 { 
     public class Customer 
     { 
+        [Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

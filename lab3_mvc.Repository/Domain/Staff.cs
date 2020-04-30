@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace lab3_mvc.Repository.Domain 
 { 
     public class Staff 
     { 
+        [Key]
         public int Staff_Id { get; set; }
         public int Staff_Role_Code { get; set; }
         public string FirstName { get; set; }
